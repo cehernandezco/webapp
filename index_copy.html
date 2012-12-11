@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=""UTF-8>
+	<meta name="viewport" content="initial-scale=1, user-scalable=no, WIDTH=DEVICE-WIDTH">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="./libs/jquery.mobile-1.2.0/jquery.mobile-1.2.0.css">
+
+	<script type="text/javascript" src="./libs/jquery.mobile-1.2.0/jquery.js"></script>
+	<script type="text/javascript" src="./assets/js/ready.js"></script>
+	<script type="text/javascript" src="./libs/jquery.mobile-1.2.0/jquery.mobile-1.2.0.js"></script>
+</head>
+<body>
+	<div id="home" data-role="page">
+		<div data-role="header" >
+			<h1>Webapp</h1>
+		</div>
+		<div data-role="content">
+			
+
+			<button id="button">
+				Click me!
+			</button>
+			<a href="#otherPage" data-transition="slide">Next</a>
+
+
+		<div data-role="popup" id="popupBasic" data-transition="flip">
+			<p>are you sure?<p>
+			<button id="buttonok">OK</button>
+			<button id="buttoncan">Cancel</button>
+		</div>
+	</div>
+
+	<!-- page 2 -->
+	<div id="otherPage" data-role="page">
+		<div data-role="header" >
+			<h1>Webapp</h1>
+		</div>
+		<div data-role="content">
+			<a href="#home">home</a>
+			<h3>Contenido</h3>
+		</div>
+	</div>
+	
+</body>
+</html>
